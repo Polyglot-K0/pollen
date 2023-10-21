@@ -1,8 +1,7 @@
 // Cache replacement policy in Rust
-use std::collections::{HashMap, LinkedList};
+use std::collections::{HashMap, VecDeque};
 
-struct LRUCache <K, V>{
-
+stuct LRU<K, V> {
 
     
 }
