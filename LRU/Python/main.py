@@ -1,5 +1,5 @@
 # Cache Replacement Policy in Python
-from collections import OrderdDict
+from collections import OrderedDict
 
 class LRU:
     def __init__(self, capacity: int):
@@ -13,3 +13,12 @@ class LRU:
             # move accessed item to the end
             self.cache.move_to_end(key)
             return self.cache[key]
+    def put(self, key: int, value: int) -> None:
+        if key in self.cache:
+
+            self.cache[key] = value
+            self.cache.move_to_end(key)
+
+        
+        
+    
