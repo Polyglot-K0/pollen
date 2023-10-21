@@ -12,7 +12,18 @@ where
     K: Clone + PartialEq + std::hash::Hash,
     V: Clone,
 {
-    pub fn 
+    pub fn new(capacity: usize) -> Self {
+        LRU {
+            capacity,
+            map: HashMap::new()
+            orde: VecDeque::new(),
 
+        }
 
+    }
+
+pub fn get(&mut self, key: &K) -> Option<&V> {
+
+    
+}
 }
