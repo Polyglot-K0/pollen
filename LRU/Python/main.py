@@ -4,9 +4,9 @@ from collections import OrderedDict
 class LRU:
     def __init__(self, capacity: int):
         self.capacity = capacity
-        self.cache - OrderDict()
+        self.cache = OrderedDict()
 
-    def get(self, ke: int) -> int:
+    def get(self, key: int) -> int:
         if key not in self.cache:
             return -1
         else:
