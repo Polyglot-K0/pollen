@@ -38,3 +38,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+#output
+# 1
+# -1
+# -1
+# 3
+# 4
