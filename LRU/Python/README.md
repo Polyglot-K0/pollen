@@ -4,12 +4,15 @@
 
 - The LRU cache has methods 'put' (Least 
 - If key is fetched (or updated), it's considered recentely used and moved to othe end.
-- When the cache exceeds its copacity and a new key-value pair is to be inserted, the least recently used item (the first item in the cache) is evicted
+- When the cache exceeds its copacity and a new key-value pair is to be inserted, the least recently used item (the first item in the cache) is evicted 
 
 ```Python
 # 'collections module implements specialized container datatypes providing alternatives to Python's general purpose built in containers, dict, list, set, and tuple
 from collections import OrderedDict
 
+
+# Defining a class called 'LRU'
+# This will implement the Least Recently Used caching algorithms
 class LRU:
     # 'capacity: int' is a type "hint". It indicates that the variable 'capacity' is expected to be of type 'int' 
 
