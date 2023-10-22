@@ -1,4 +1,4 @@
-# Basic Fun
+# Basic Funtionality 
 def test_basic_functionality():
     cache = LRU(2)
     cache.put(1, 1)
