@@ -2,6 +2,8 @@
 
 ## What is happening below?
 
+- cache: component or mechanism used to store and manage data in a way that makes future data retrieval faster and more effecient.
+
 - The LRU cache has methods 'put' (Least 
 - If key is fetched (or updated), it's considered recentely used and moved to othe end.
 - When the cache exceeds its copacity and a new key-value pair is to be inserted, the least recently used item (the first item in the cache) is evicted 
@@ -56,6 +58,11 @@ if __name__ == "__main__":
 
 ```
 
-
-
 # Test
+
+
+```python
+
+
+
+```
