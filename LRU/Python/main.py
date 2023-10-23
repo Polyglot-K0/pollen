@@ -1,5 +1,6 @@
 # Cache Replacement Policy in Python
 from collections import OrderedDict
+import tests 
 
 class LRU:
     def __init__(self, capacity: int):
@@ -35,6 +36,7 @@ def main():
     print(cache.get(1))
     print(cache.get(3))
     print(cache.get(4))
+
 
 if __name__ == "__main__":
     main()
